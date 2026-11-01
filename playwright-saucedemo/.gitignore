@@ -1,0 +1,15 @@
+# Dependências
+node_modules/
+
+# Artefatos gerados pelo Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Sessões de login salvas com storageState (aula 38).
+# Nunca versionar: contém cookies de sessão.
+.auth/
+
+# Sistema operacional
+.DS_Store

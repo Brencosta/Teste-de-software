@@ -1,0 +1,33 @@
+{
+  "name": "playwright-saucedemo",
+  "version": "1.0.0",
+  "description": "Material de apoio do curso de Teste de Software: testes automatizados com Playwright no SauceDemo",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regressao": "playwright test --grep @regressao",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://www.saucedemo.com",
+    "aula:29": "playwright test tests/29-fundamentos-apis-ii",
+    "aula:30": "playwright test tests/30-fundamentos-playwright-i",
+    "aula:31": "playwright test tests/31-fundamentos-playwright-ii",
+    "aula:32": "playwright test tests/32-fundamentos-playwright-iii",
+    "aula:33": "playwright test tests/33-localizadores",
+    "aula:34": "playwright test tests/34-acoes-do-usuario",
+    "aula:35": "playwright test tests/35-tipos-de-asserts",
+    "aula:36": "playwright test tests/36-esperas-e-asserts",
+    "aula:37": "playwright test tests/37-organizacao-i-pom",
+    "aula:38": "playwright test tests/38-organizacao-ii-fixtures-e-hooks"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^24.0.0"
+  }
+}
